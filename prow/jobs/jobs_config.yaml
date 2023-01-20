@@ -5,6 +5,7 @@
 
 # List of AWS services supported in ACK testing infrastructure.
 aws_services:
+- acm
 - acmpca
 - apigatewayv2
 - applicationautoscaling
@@ -17,12 +18,16 @@ aws_services:
 - eks
 - elasticache
 - emrcontainers
+# - eventbridge
 - iam
+- kafka
+- kinesis
 - kms
 - lambda
 - memorydb
 - mq
 - opensearchservice
+- organizations
 - prometheusservice
 - rds
 - route53
@@ -30,6 +35,7 @@ aws_services:
 - sagemaker
 - sfn
 - sns
+- sqs
 
 # List of AWS services onboarded for soak testing, executing in their Prow
 # cluster on every release
