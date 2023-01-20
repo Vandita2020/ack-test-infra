@@ -1,0 +1,10 @@
+{
+	"Version": "2012-10-17",
+	"Statement": {
+		"Effect": "Allow",
+		"Principal": {
+			"AWS": "arn:aws:sts::322962841005:assumed-role/Admin/vanditap-Isengard"
+		},
+		"Action": "sts:AssumeRole"
+	}
+}
